@@ -1,0 +1,20 @@
+//pattern 6
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int  j;
+	char i;
+	
+	for(i='A'; i<='E'; i++)
+	{
+		for(j=1; j<=5; j++)
+		{
+			cout<<i;
+		}
+		cout<<endl;
+	}
+	
+	return 0;
+}
